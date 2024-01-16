@@ -215,6 +215,68 @@ margin-right: 150px;
 margin-bottom: 40px;
 
  }
+ .last{
+    margin-left: 70px;
+    margin-right: 100px;
+    display: flex;
+    margin-bottom: 50px;
+
+ }
+ .last-text{
+    background: #FFF;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+margin-right: 25px;
+padding: 40px;
+ }
+ .last-text input{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+ padding: 16px 180px 16px 16px; 
+ }
+ .last-btn{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.2rem;
+font-weight: 800;
+padding: 16px 140px 16px 130px ; 
+ }
+ .discount-img{
+    position: relative;
+    
+ }
+ .discount-img img{
+    width:100%;
+ }
+ .new-para
+ {
+    border-radius: 16px;
+background: #FF5400;
+transform: rotate(-19.628deg);
+width:320px;
+height: 119px;
+position: absolute;
+top:210px;
+left:250px;
+ }
+ footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+ }
+ .footer-title{
+    padding-left: 530px;
+    padding-right: 560px;
+    padding-top: 90px;
+    margin-bottom:20px;
+ }
+ .social-link{
+    border-bottom: ;
+ }
 @media screen and (max-width:576px) {
    nav li{
     display: none;
@@ -255,4 +317,20 @@ margin-bottom: 40px;
         margin-left: 5px;
         margin-right: 5px;
     }
+    .last{
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .new-para{
+        width: 214.023px;
+height: 110px;
+border-radius: 16px;
+top:170px;
+left:230px;
+    }
+ .footer-title{
+    padding-left:130px ;
+    padding-right:200px ;
+ }
 }
